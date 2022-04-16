@@ -203,7 +203,9 @@
 }
 
 .title-purple{
-    color: var(--blackPurple);
+    background-image: var(--gradientPurple-bg);
+    color: transparent;
+    background-clip: text;
     text-align: center;
 }
 .purple-cursos{
@@ -344,11 +346,7 @@
 #planos h1.title{
     font-size: 4rem;
 }
-.screen:last-child h1{
-    background-image: var(--grandientPutple-tx);
-    background-clip: text;
-    color: transparent;
-}
+
 #screen-planos{
     display: flex;
     flex-wrap: wrap;
@@ -385,6 +383,11 @@
     font-weight: 900;
 
     color: var(--blackPurple);
+}
+.screen .title-prime{
+    background-image: var(--gradientPurple-bg);
+    color: transparent;
+    background-clip: text;
 }
 
 .screen ul{
