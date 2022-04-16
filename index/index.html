@@ -5,52 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Logotipo.</title>
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/responsiveTablet.css">
+    <link rel="stylesheet" href="style/responsiveMobile.css">
 </head>
 <body>
     <!-- Sessão do HOME (contém header)-->
     <section id="home">
         <header id="home-header">
-            <a href="#">
-                <h1 class="logotipo">Logo<span>tipo<span>.</span></span></h1>
+            <a href="#" class="logotipo">
+                <h1 >Logo<span class="tipo">tipo<span class="dot">.</span></span></h1>
             </a>
 
             <nav id="nav-header">
                 <ul>
-                    <li>Cursos</li>
-                    <li>Sobre nós</li>
-                    <li>Login</li>
-                    <li>
-                        <a href="#"><button>Conhecer planos</button></a>
-                    </li>
+                    <li><a href="#"> Cursos </a> </li>
+                    <li><a href="#">Sobre nós</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">
+                        <button class="btn" >Conhecer planos</button>
+                    </a></li>
                 </ul>
             </nav>
         </header>
 
-        <div id="home-left">
-            <h1 class="title title-h">Lorem Ipsum</h1>
-            <p class="text text-h">
-                Lorem ipsum dolor sit amet elit,
-                sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua.
-                Ut enim ad minim venia.
-            </p>
-            <a href=""><button class="btn btn-h"> Nossos cursos</button></a>
+        <div id="home-down">
+            <div id="home-left">
+                <h1 class="title title-h">Lorem Ipsum</h1>
+                <p class="text text-h">
+                    Lorem ipsum dolor sit amet elit,
+                    sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua.
+                    Ut enim ad minim venia.
+                </p>
+                <a href=""><button class="btn btn-h"> Nossos cursos</button></a>
+            </div>
+            <div id="home-right">
+                <img src="img/woman.png" alt="Mulher com computador">
+            </div>
         </div>
-
-        <div id="home-right">
-            <img src="img/woman.png" alt="Mulher com computador">
-            <div class="circle white home"></div>
-        </div>
+        <div class="circle white-home"></div>
     </section>
 
     <!-- Sessão dos CURSOS -->
     <section id="cursos">
-        <div class="curso-left">
-            <img src="img/rocket.png" alt="Foguete roxo">
-            <div class="circle purple curso"></div>
-        </div>
-
-        <div class="curso-right">
+        <div class="cursos-right">
             <h1 class="title title-purple">Cursos</h1>
 
             <!-- Box dos cursos -->
@@ -83,7 +82,7 @@
 
                 <div class="box box-javascript">
                     <section class="box-title">
-                        <img src="img/icon/icon JS.png.png" alt="icone do JavaScript">
+                        <img src="img/icon/icon JS.png" alt="icone do JavaScript">
                         <h2>JavaScript</h2>
                     </section>
                     <ul class="box-list">
@@ -108,6 +107,8 @@
                 </div>
             </section>
         </div>
+
+        <div class="purple-cursos"></div>
     </section>
 
     <!-- Sessão de "sobre nós"-->
@@ -127,7 +128,7 @@
         </div>
 
         <div id="sobre-right">
-            <div id="img-mask">
+            <div class="img-mask">
                 <img src="img/img team.png" alt="Nosso time">
             </div>
         </div>
@@ -156,7 +157,7 @@
                 <div class="line"></div>
 
                 <h2>
-                    <span>R$</span> 499 <span>,90</span>
+                    <span>R$</span>499<span>,90</span>
                 </h2>
                 <a href="#"><button class="btn-line">Assinar</button></a>
             </div>
@@ -180,7 +181,7 @@
                 <div class="line"></div>
 
                 <h2>
-                    <span>R$</span> 599 <span>,90</span>
+                    <span>R$</span>599<span>,90</span>
                 </h2>
                 <a href="#"> <button class="btn-line">Assinar</button></a>
             </div>
@@ -198,26 +199,26 @@
                         <img src="img/icon/icon yes.png" alt="não"> <p>Atividades;</p>
                     </li>
                     <li>
-                        <img src="img/icon/icon yes.png" alt="não"> <p>Atividades;</p>
-                    </li>
-                    <li>
                         <img src="img/icon/icon yes.png" alt="sim"> <p>Auxílio professor;</p>
                     </li>
                 </ul>
                 <div class="line"></div>
 
                 <h2>
-                    <span>R$</span> 649 <span>,90</span>
+                    <span>R$</span>649<span>,90</span>
                 </h2>
                 <a href="#"><button class="btn-fill">Assinar</button></a>
             </div>
         </section>
+        
     </section>
 
     <footer>
         <section id="sec-footer">
             <div id="copy">
-                <h1 class="logotipo">Logo<span>tipo<span>.</span></span></h1>
+                <a href="" class="logotipo">
+                    <h1>Logo<span class="tipo">tipo<span class="dot">.</span></span></h1>
+                </a>
                 <p>
                     Logotipo. 2022 <br>
                     © todos os direitos reservados
@@ -225,7 +226,7 @@
             </div>
 
             <nav class="footer-nav">
-                <section id="nav-menu">
+                <section class="nav-menu">
                     <h2 class="nav-title">Menu</h2>
                     <ul class="nav-list">
                         <a href="#"><li>Cursos</li></a>
@@ -234,7 +235,7 @@
                     </ul>
                 </section>
 
-                <section id="nav-menu">
+                <section class="nav-menu">
                     <h2 class="nav-title">Ajuda</h2>
                     <ul class="nav-list">
                         <a href="#"><li>FAQ</li></a>
@@ -243,7 +244,7 @@
                     </ul>
                 </section>
 
-                <section id="nav-menu">
+                <section class="nav-menu">
                     <h2 class="nav-title">Planos</h2>
                     <ul class="nav-list">
                         <a href="#"><li>Básico</li></a>
@@ -253,12 +254,14 @@
                 </section>
             </nav>
         </section>
+        
         <section id="social">
             <a href="#"><img class='social-icon facebook' src="img/social/facebook.png" alt="icone do Facebook"></a>
             <a href="https://www.instagram.com/rick_2267" target="_blank"><img class='social-icon instagram' src="img/social/instagram.png" alt="icone do Instagram"></a>
             <a href="https://github.com/marcoshenriquefc" target="_blank"><img class='social-icon github' src="img/social/github.png" alt="icone do GitHub"></a>
             <a href="https://www.linkedin.com/in/marcoshenriqueferreiracosta" target="_blank"><img class='social-icon linkedin' src="img/social/linkedin.png" alt="icone do Linkedin"></a>
         </section>
+        
         <p class="dev">Site desenvolvido por <span>MARCOS HENRIQUE</span></p>
     </footer>
 </body>

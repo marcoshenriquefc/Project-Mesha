@@ -1,0 +1,64 @@
+
+/* RESPONSIVE TABLET */
+
+@media only screen and (max-width: 1024px){
+
+/*=================
+    HOME SECTION
+=================*/
+#home-down{
+    flex-direction: column;
+}
+#home-left{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+
+    margin: 0 auto;
+}
+.title{
+    font-size: 5rem;
+}
+
+#home-right{
+    margin: 0 auto;
+
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+#home-right img{
+}
+
+.white-home{
+    background: white;
+    clip-path: circle(40% at center bottom);
+    z-index: -1;  
+}
+
+/*=================
+    CURSOS SECTION
+=================*/
+#cursos{
+    height: 100%;
+    min-height: 110%;
+}
+.purple-cursos{
+    clip-path: circle(30% at left 35%);
+}
+
+#sobre-nos{
+    display: block;
+}
+
+#sobre-left{
+    width: 86%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#sobre-right{
+    width: 86%;
+    margin: auto;
+}
+}
