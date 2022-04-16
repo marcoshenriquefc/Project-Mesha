@@ -203,9 +203,7 @@
 }
 
 .title-purple{
-    background-image: var(--gradientPurple-bg);
-    color: transparent;
-    background-clip: text;
+    color: var(--blackPurple);
     text-align: center;
 }
 .purple-cursos{
@@ -383,11 +381,6 @@
     font-weight: 900;
 
     color: var(--blackPurple);
-}
-.screen .title-prime{
-    background-image: var(--gradientPurple-bg);
-    color: transparent;
-    background-clip: text;
 }
 
 .screen ul{
