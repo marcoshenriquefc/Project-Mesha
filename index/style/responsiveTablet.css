@@ -1,11 +1,141 @@
+:root{
+    --blackPurple: #51127F;
+    --mediumPurple: #9D0D82;
+    --lightPurple: #D60A84;
+
+    --gradientPurple-bg: linear-gradient(135deg, #541280 0%, #d40a84 100%);
+    --grandientPutple-tx: linear-gradient(180deg, rgba(84,18,128,1) 130px, rgba(212,10,132,1) 100%)
+}
 
 /* RESPONSIVE TABLET */
-
 @media only screen and (max-width: 1024px){
+
+/*=================
+    BURGER MENU
+=================*/
+#nav-header{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+#burger-menu{
+    display: flex;
+    background-color: white;
+    
+    width: 50px;
+    height: 5px;
+
+    z-index: 3;
+} 
+#burger-menu::before{
+    content: '';
+    background-color: white;
+    
+    width: 50px;
+    height: 5px;
+
+    margin-top: -10px;
+    
+    z-index: 3;
+    transition: all 0.5s;
+}
+#burger-menu::after{
+    content: '';
+    background-color: white;
+    
+    width: 20px;
+    height: 5px;
+    margin-top: 10px;
+
+    z-index: 3;
+    transition: all 0.5s;
+}
+#burger-menu.active {
+    background-color: transparent;
+}
+#burger-menu.active::before{
+    margin-top: 0;
+    margin-right: -25%;
+    width: 50%;
+    transform: rotate(-45deg);
+}
+#burger-menu.active::after{
+    margin-left: -25%;
+    margin-top: 0;
+    transform: rotate(45deg);
+    width: 50%;
+}
+
+
+#nav-header ul{
+    background: var(--blackPurple);
+    position: absolute;
+ 
+    text-align: center;
+    display: block;
+ 
+    width: 100%;
+    height: 0%;
+    top: 120px;
+    left: 0;
+
+    margin-top: 10px;
+    overflow: hidden;
+    
+    z-index: 2;
+    transition: all linear 0.5s;
+}
+
+#nav-header ul a{
+
+    margin: 20px 0;
+    padding: 10px 0;
+    width: 100%;
+
+    font-size: 1.5rem;
+
+    display: block;
+}
+#nav-header ul.active{
+    background: var(--blackPurple);
+    position: absolute;
+ 
+    text-align: center;
+    display: block;
+ 
+    width: 100%;
+    height: 100%;
+    top: 120px;
+    left: 0;
+    padding-top: 50px;
+    
+    z-index: 2;
+}
+
 
 /*=================
     HOME SECTION
 =================*/
+#home{
+    background: var(--grandientPutple-tx);
+}
+header .btn{
+    background-color: white;
+    color: var(--lightPurple);
+    
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    width: 300px;
+    height: 50px;
+
+    border-radius: 100px;
+    border: none;
+
+    cursor: pointer;
+    transition: all 0.3s;
+}
 #home-down{
     flex-direction: column;
 }
