@@ -461,7 +461,7 @@
     FOOTER SECTION
 =================*/
 footer{
-    background-color: rgb(20, 20, 20);
+    background-color: #0E0321;
     display: flex;
     flex-direction: column;
 
@@ -520,10 +520,10 @@ footer{
 }
 .nav-list a{
     text-decoration: none;
-    color:white;
+    color:#9c8eb4;
 }
 .nav-list a:hover{
-    color:rgb(182, 182, 182);
+    color: white;
 }
 .nav-list li{
     margin-bottom: 10px;
