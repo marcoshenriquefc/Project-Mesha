@@ -308,6 +308,10 @@
     width: 50%;
 }
 .img-mask{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     margin: auto;
     width: 90%;
     height: 90%;
@@ -337,7 +341,7 @@
     z-index: -1;
     box-shadow: inset 0px -16px 9px rgba(0, 0, 0, 0.25);
 }
-#planos h1{
+#planos h1.title{
     font-size: 4rem;
 }
 .screen:last-child h1{

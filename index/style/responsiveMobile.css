@@ -1,0 +1,86 @@
+:root{
+    --blackPurple: #51127F;
+    --mediumPurple: #9D0D82;
+    --lightPurple: #D60A84;
+
+    --gradientPurple-bg: linear-gradient(135deg, #541280 0%, #d40a84 100%);
+    --grandientPutple-tx: linear-gradient(180deg, rgba(84,18,128,1) 130px, rgba(212,10,132,1) 100%)
+}
+
+/* RESPONSIVE MOBILE SMARTPHONE */
+@media only screen and (max-width: 645px){
+
+/*=================
+    HOME SECTION
+=================*/
+.title{
+    font-size: 2.8rem;
+}
+
+#home-right{
+    width: 100%;
+    height: 60%;
+
+}
+#home-right img{
+    object-fit: cover;
+}
+
+/*=================
+    CURSOS SECTION
+=================*/
+.img-mask{
+    background-color: #9D0D82;
+    margin: auto;
+    width: 100%;
+    height: 400px;
+}
+.img-mask img{
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+/*=================
+    PLANOS SECTION
+=================*/
+#planos{
+    padding: 0;
+    max-width: 100%;
+}
+
+#planos h1.title{
+    font-size: 2.8rem;
+    text-align: center;
+
+    margin: 50px 15px 0 15px;
+}
+.screen{
+    width: 100%;
+    max-width: 100%;
+}
+
+.planos-title{
+    font-size: 2.8rem;
+
+}
+/*=================
+    FOOTER SECTION
+=================*/
+#sec-footer{
+    display: block;
+    text-align: center;
+}
+#copy{
+    width: 100%;
+}
+.footer-nav{
+    justify-content: center;
+    width: 100%;
+}
+
+#social{
+    width: 100%;
+}
+}

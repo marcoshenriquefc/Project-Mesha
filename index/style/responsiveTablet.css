@@ -27,7 +27,7 @@
     height: 5px;
 
     z-index: 3;
-} 
+}
 #burger-menu::before{
     content: '';
     background-color: white;
@@ -39,10 +39,12 @@
     
     z-index: 3;
     transition: all 0.5s;
+    
 }
 #burger-menu::after{
     content: '';
     background-color: white;
+    
     
     width: 20px;
     height: 5px;
@@ -66,7 +68,6 @@
     transform: rotate(45deg);
     width: 50%;
 }
-
 
 #nav-header ul{
     background: var(--blackPurple);
@@ -156,8 +157,6 @@ header .btn{
     justify-content: center;
     height: 100%;
     width: 100%;
-}
-#home-right img{
 }
 
 .white-home{
