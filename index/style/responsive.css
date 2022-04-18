@@ -207,19 +207,6 @@ header .btn{
 }
 }
 
-:root{
-    --blackPurple: #51127F;
-    --mediumPurple: #9D0D82;
-    --lightPurple: #D60A84;
-
-    --gradientPurple-bg: linear-gradient(135deg, #541280 0%, #d40a84 100%);
-    --grandientPutple-tx: linear-gradient(180deg, rgba(84,18,128,1) 130px, rgba(212,10,132,1) 100%)
-}
-
-
-
-
-
 
 /*=============================================
     RESPONSIVE MOBILE SMARTPHONE
